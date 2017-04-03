@@ -1,0 +1,55 @@
+body{
+background-color: AliceBlue;
+}
+
+#board
+{
+z-index: 1;
+}
+
+svg
+{
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0.5;
+z-index: 1;
+overflow: visible;
+width: 100px;
+ height: 100px;
+}
+svg:not(:root) {
+    overflow: visible;
+}
+#mind-master
+{
+height: 100px; 
+width: 150px; 
+text-align: center;
+background-color: PaleTurquoise;
+z-index: 3;
+text-align: center;
+line-height: 100px;
+border: 4px Turquoise double;
+border-radius: 50%;
+}
+
+.mind-container
+{
+height: 50px;
+width: 100px; 
+background-color: PaleGoldenrod;
+z-index: 4;
+text-align: center;
+line-height: 50px; 
+border: 2px Turquoise solid;
+border-radius: 50%;
+}
+
+line
+{
+stroke: PaleTurquoise;
+stroke-width: 5px;
+z-index: 2;
+overflow: visible;
+}
